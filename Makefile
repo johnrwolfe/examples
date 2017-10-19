@@ -9,7 +9,7 @@ CXXFLAGS += --std=c++14 -I include
 LDFLAGS += -lboost_system -lboost_thread -lboost_date_time -lboost_program_options -lboost_chrono
 LDFLAGS += -lpthread -lrt
 
-ALL += xml-describe
+ALL += xml-describe xml-mavlink-info xml-mavlink
 
 .PHONY: all clean distclean gitignore
 NOT_MISSING := all clean distclean gitignore
